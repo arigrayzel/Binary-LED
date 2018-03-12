@@ -3,9 +3,9 @@ import time
 
 #set up GPIO using board numbering
 GPIO.setmode(GPIO.BCM)
-light1 = 4
-light2 = 12
-light3 = 16
+light1 = 15
+light2 = 25
+light3 = 12
 GPIO.setup(light1, GPIO.OUT, initial = 0)
 GPIO.setup(light2, GPIO.OUT, initial = 0)
 GPIO.setup(light3, GPIO.OUT, initial = 0)
